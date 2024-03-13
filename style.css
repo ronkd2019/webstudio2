@@ -1,0 +1,82 @@
+:root {
+    --main-color: #2F303A;
+    --accent-color: #2196F3;
+    --paragraph-color: #757575;
+}
+
+#header li {
+display: inline;
+padding: 90px;
+}
+#header li a {
+    color: black;
+}
+a.liheroo:hover{
+    color: var(--accent-color,#2196F3);
+    
+}
+ a.lihero:hover {
+    color: var(--accent-color, #2196F3);
+}
+#hero {
+    background-color: var(--main-color, #2F303A);
+    width: 1450px;
+    height: 500px;
+}
+#hero h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+#hero button {
+    background-color: var(--accent-color,#2196F3);
+    color: aliceblue;
+    font-size: larger;
+    display: inline-flex;
+    align-items: center;
+}
+#main ul {
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#submain h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main p {
+    color: var(--paragraph-color, #757575);
+}
+#submain img {
+    border-radius: 20px;
+    margin: 55px;
+}
+#team h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
+#team {
+    background: #F5F4FA;
+}
+#team ul {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.li1 {
+    padding: 30px;
+}
+.li2{
+    padding: 30px;
+}
+.li3{
+    padding: 30px;
+}
+.li4{
+    padding: 30px;   
+}
+#footer ul li a {
+    color: #2F303A;
+}
